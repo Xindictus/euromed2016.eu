@@ -1,0 +1,10 @@
+
+.div-outside {
+    margin: 2em 0 2em 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}

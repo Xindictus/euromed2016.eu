@@ -1,0 +1,66 @@
+.breadcrumb-pos {
+    margin-top: -1.4em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    /*height: 250px;*/
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    /*height: 100%;*/
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.speaker-head {
+    font-weight: bold;
+}
+
+.more-speak-but {
+    color: white;
+    font-size: 130%;
+    background-color: #EE3168;
+}
+
+.more-speak-but:hover {
+    color: #EE3168;
+    background-color: white;
+}
+
+.more-spea-link:hover {
+    cursor: pointer;
+}
+
+.speaker-links {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.speaker-card {
+    display: block;
+}
+
+.speaker-card:hover {
+    cursor: pointer;
+}
+
+#speakerModal {
+    z-index: 10000;
+}
+
+.modal-text {
+    text-align:justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Times New Roman", sans-serif;
+}

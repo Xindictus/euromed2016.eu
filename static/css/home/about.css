@@ -1,0 +1,17 @@
+
+.about-text {
+    text-align:justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.conf-but {
+    color: white;
+    font-size: 130%;
+    background-color: #761c19;
+}
+
+.conf-but:hover {
+    color: #761c19;
+    background-color: white;
+}

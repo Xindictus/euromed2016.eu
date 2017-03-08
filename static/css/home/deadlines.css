@@ -1,0 +1,42 @@
+.deadline-txt {
+    font-family: Somatic, sans-serif;
+}
+
+.deadline-txt-md {
+    font-size: 150%;
+}
+
+.timer-div {
+    display:flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.timer-span {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.7em 0.5em;
+    /*width:100px;*/
+    width:25%;
+    text-align: center;
+    color:white;
+    background:rgba(0,0,0,0.4);
+    text-shadow:0 0 5px black;
+}
+
+kbd {
+    display: block;
+    font-size: 2em;
+}
+
+.timer-desc {
+    display: block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#ffc600;
+}

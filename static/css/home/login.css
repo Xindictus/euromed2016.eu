@@ -1,0 +1,39 @@
+.custom-input-group {
+    position: relative;
+}
+
+.custom-input {
+    background: transparent;
+    margin: 2em 0 2em 0;
+    padding: 1em 1em 1em 1em;
+    display: block;
+    width: 85%;
+    border:none;
+    border-bottom:1px solid #757575;
+    transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -webkit-transition:0.5s ease all;
+}
+
+.custom-input:focus {
+    outline: none;
+}
+
+.custom-input:focus ~ .custom-label, .custom-input:valid ~ .custom-label {
+    color: #2aabd2;
+    top: -1.5em;
+    left: 0.8em;
+    font-size: 85%;
+}
+
+.custom-label {
+    color: #c0a16b;
+    pointer-events:none;
+    font-size: 200%;
+    position: absolute;
+    top: 0.3em;
+    left: 0.4em;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}

@@ -1,0 +1,53 @@
+.table {
+    border: 0.5px solid black;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 0.5px solid black;
+}
+
+.mon {
+    color: blue;
+}
+
+.tue {
+    color: darkmagenta;
+}
+
+.wen {
+    color: #204d74;
+}
+
+.thur {
+    color: #8a6d3b;
+}
+
+.fri {
+    color: #122b40;
+}
+
+.sat {
+    color: #761c19;
+}
+
+.nav-tabs{
+    background-color: black;
+}
+.tab-content {
+    padding:5px
+}
+
+.nav-tabs > li > a {
+    color: white;
+    border-radius: 0;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: white;
+    border-radius: 0;
+    color: black;
+}

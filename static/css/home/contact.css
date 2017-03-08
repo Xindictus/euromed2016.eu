@@ -1,0 +1,60 @@
+textarea {
+    resize: none;
+}
+
+.contact-center {
+    margin: 0 auto;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.social-div {
+    margin: 0 auto;
+}
+
+.social {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+.social:hover .social:focus {
+    text-decoration: none !important;
+}
+
+.social-fb {
+    color: #3B5998;
+    padding: 0.45em 0.65em 0.45em 0.65em;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+.social-fb:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #3B5998;
+}
+
+.social-utube {
+    color: red;
+    padding: 0.45em 0.55em 0.45em 0.55em;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+.social-utube:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+.g-recaptcha {
+    margin: 0 auto;
+}
+
+.contact-input-left {
+    margin-right: 0.3em;
+}
+.contact-input-right {
+    margin-left: 0.3em;
+}

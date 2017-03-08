@@ -1,0 +1,37 @@
+
+.more-speak-but {
+    color: white;
+    font-size: 130%;
+    background-color: #EE3168;
+}
+
+.more-speak-but:hover {
+    color: #EE3168;
+    background-color: white;
+}
+
+.more-spea-link:hover {
+    cursor: pointer;
+}
+
+.speaker-links {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.speaker-info-head {
+    font-family: Somatic, sans-serif;
+    text-align: center;
+}
+
+.reg-now {
+    background-color: #2aabd2;
+}
+
+.speaker-info {
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.speaker-div {
+    margin: 1em 0 1em 0;
+}

@@ -1,0 +1,15 @@
+.breadcrumb-pos {
+    margin-top: -1.4em;
+}
+
+.button-panel {
+    margin-right: 2em;
+}
+
+textarea {
+    resize: none;
+}
+
+.required {
+    color: red;
+}
